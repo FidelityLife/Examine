@@ -1675,7 +1675,7 @@ namespace Examine.LuceneEngine.Providers
         /// </summary>
         /// <returns></returns>
         [SecuritySafeCritical]
-        public IndexWriter GetIndexWriter()
+        public virtual IndexWriter GetIndexWriter()
         {
             EnsureIndex(false);
 

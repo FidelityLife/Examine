@@ -27,7 +27,7 @@ namespace UmbracoExamine
     /// <summary>
     /// 
     /// </summary>
-    internal class UmbracoContentIndexer : BaseUmbracoIndexer
+    public class UmbracoContentIndexer : BaseUmbracoIndexer
     {
         #region Constructors
 
