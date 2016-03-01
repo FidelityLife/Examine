@@ -811,7 +811,7 @@ namespace Examine.LuceneEngine.Providers
             //check if the index doesn't exist, and if so, create it and reindex everything
             if (!IndexExists())
             {
-                RebuildIndex();
+                //this.RebuildIndex();
                 return;
             }
             else
